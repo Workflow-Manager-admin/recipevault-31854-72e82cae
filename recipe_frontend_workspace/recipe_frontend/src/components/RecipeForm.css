@@ -1,0 +1,35 @@
+.recipe-form {
+  max-width: 470px;
+  margin: 60px auto 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 36px 24px 26px 24px;
+  box-shadow: 0 1px 6px var(--shadow-color);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.recipe-input {
+  font-size: 1rem;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border-color);
+  background: #fcfcfc;
+  resize: vertical;
+  color: var(--text-color);
+  outline: none;
+  margin-bottom: 3px;
+  transition: border 0.15s;
+}
+.recipe-input:focus {
+  border: 1.2px solid var(--primary);
+}
+.recipe-form h2 {
+  margin-bottom: 10px;
+  color: var(--primary);
+}
+
+.btn-large {
+  margin-top: 10px;
+}

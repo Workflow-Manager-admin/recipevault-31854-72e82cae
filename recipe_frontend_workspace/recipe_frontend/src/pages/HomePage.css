@@ -1,0 +1,12 @@
+.homepage-layout {
+  display: flex;
+  width: 100%;
+  min-height: calc(100vh - 60px);
+  background: var(--background);
+}
+.homepage-main {
+  flex: 1 1 0%;
+  padding: 34px 26px 26px 26px;
+  max-width: 650px;
+  margin: 0 auto;
+}

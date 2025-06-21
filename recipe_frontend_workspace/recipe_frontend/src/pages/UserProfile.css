@@ -1,0 +1,22 @@
+.profile-container {
+  max-width: 380px;
+  margin: 60px auto 0 auto;
+  background: var(--surface);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 34px 26px;
+  box-shadow: 0 2px 7px var(--shadow-color);
+}
+
+.profile-header {
+  color: var(--primary);
+  font-size: 1.4rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.profile-info {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  margin-bottom: 18px;
+}
